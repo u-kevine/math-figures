@@ -16,12 +16,20 @@ public class Rectangle extends Shape {
         this.length=length;
     }
 
-
+    /**
+     * This method calculates the area of the rectangle
+     * @return double for area
+     */
     @Override
     public double area() {
-        return this.width*this.length;
+        return (this.width*this.length);
     }
 
+
+    /**
+     * This method calculates the volume of the rectangle
+     * @return double for volume
+     */
     @Override
     public double volume() {
         return 0.0;
